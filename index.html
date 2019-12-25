@@ -7,6 +7,7 @@
         <meta name="description" content="A series of online hour-long free webinars by Pradeep Kumar and Prashanth Puranik">
         <title>Saturday Live | Webinar Series</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
         <style>
             .logo {
                 width: 48px;
@@ -33,13 +34,43 @@
             .card .card-body {
                 min-height: 280px;
             }
+
+            .social-media {
+                overflow: auto;
+                display: inline-block;
+                margin-top: 12px;
+            }
+
+            .social-media > * {
+                margin-left: 2em;
+            }
+
+            @media all and (min-width: 992px) {
+                .social-media {
+                    float: right;
+                }
+            }
         </style>
     </head>
     <body>
         <div class="container mt-3">
-            <h1 class="h4">
+            <h1 class="h4 clearfix">
                 <img src="./logo-yellow.png" alt="Saturday Live Webinar - Logo" class="logo" />
                 Saturday Live - Webinar Series
+                <small class="social-media">
+                    <span class="fab fa-linkedin">
+                        <a href="https://www.linkedin.com/company/saturdaylive/" target="_blank">LinkedIn</a>
+                    </span>
+                    <span class="fab fa-twitter-square">
+                        <a href="https://twitter.com/saturdaylive2" target="_blank">Twitter</a>
+                    </span>
+                    <span class="fab fa-youtube">
+                        <a href="https://www.youtube.com/channel/UCssjdog6tjrWh-b4-vC5xHg" target="_blank">YouTube</a>
+                    </span>
+                    <span class="fas fa-envelope">
+                        <a style="font-weight: normal;" href="mailto:saturdaylivewebinars@gmail.com">EMail us</a>
+                    </span>
+                </small>
             </h1>
             <hr />
             <div class="row">
